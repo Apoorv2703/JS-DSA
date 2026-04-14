@@ -21,20 +21,39 @@
 // in an array of numbers and returns the largest number
 // in the array.
 
-let findMaxNumber = (arr)=>{
+// let findMaxNumber = (arr)=>{
 
-    let max = arr[0]
+//     let max = arr[0]
 
-    for(let i = 0 ; i<arr.length ; i++){
-        if(arr[i] > max){
-            max = arr[i]
-        }
-    }
+//     for(let i = 0 ; i<arr.length ; i++){
+//         if(arr[i] > max){
+//             max = arr[i]
+//         }
+//     }
 
-    return max
+//     return max
 
-}
+// }
 
-let result = findMaxNumber([1,2,3,4,5,22,6,7,8])
-console.log(result);
+// let result = findMaxNumber([1,2,3,4,5,22,6,7,8])
+// console.log(result);
+
+// 3. Write a function called titleCase that takes in a string
+//  and returns the string with the first letter of each word
+//  capitalized.
+
+// let titleCase = (str)=>{
+//     let words = str.toLowerCase().split(" ")
+    
+    
+
+//     for(let i = 0 ; i < words.length ; i++){
+//         words[i] = words[i][0].toUpperCase() + words[i].slice(1)
+//     }
+//     return words.join(" ")
+// }
+
+// let result = titleCase("i am cat")
+// console.log(result);
+
 
