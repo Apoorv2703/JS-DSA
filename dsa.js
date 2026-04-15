@@ -56,4 +56,20 @@
 // let result = titleCase("i am cat")
 // console.log(result);
 
+// 4. Write a function called reverseString that takes in a
+// string and returns the reverse of that string.
+
+let reverseString = (str)=>{
+
+    let reversed = ""
+
+    for(let i = str.length - 1 ; i>=0 ; i--){
+        reversed += str[i]
+    }
+    return reversed
+}
+
+let result = reverseString("apoorv")
+console.log(result);
+
 
