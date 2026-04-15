@@ -59,17 +59,40 @@
 // 4. Write a function called reverseString that takes in a
 // string and returns the reverse of that string.
 
-let reverseString = (str)=>{
+// let reverseString = (str)=>{
 
-    let reversed = ""
+//     let reversed = ""
 
-    for(let i = str.length - 1 ; i>=0 ; i--){
-        reversed += str[i]
+//     for(let i = str.length - 1 ; i>=0 ; i--){
+//         reversed += str[i]
+//     }
+//     return reversed
+// }
+
+// let result = reverseString("apoorv")
+// console.log(result);
+
+// 5. Write a function called countVowels that takes in a
+//  string and returns the number of vowels in the string.
+
+let countVowels = (str)=>{
+    let formattedStr = str.toLowerCase()
+
+    let count = 0
+
+    for(let i = 0 ; i < formattedStr.length ; i++){
+        let char = formattedStr[i]
+
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+            count++
+        }
     }
-    return reversed
+
+    return count
 }
 
-let result = reverseString("apoorv")
+let result = countVowels("apoorv")
 console.log(result);
+
 
 
