@@ -98,30 +98,51 @@
 // an array and returns a new array with duplicates
 // removed.
 
-let removeDuplicates = (arr)=>{
+// let removeDuplicates = (arr)=>{
 
-    let result = []
+//     let result = []
 
-    for(let i = 0 ; i < arr.length ; i++){
-        let isDuplicate = false 
-        for(let j = 0 ; j < result.length ; j++){
-            if(arr[i]===result[j]){
-                isDuplicate = true 
-                break ;
-            }
-        }
+//     for(let i = 0 ; i < arr.length ; i++){
+//         let isDuplicate = false 
+//         for(let j = 0 ; j < result.length ; j++){
+//             if(arr[i]===result[j]){
+//                 isDuplicate = true 
+//                 break ;
+//             }
+//         }
 
-        if(!isDuplicate){
-            result.push(arr[i])
-        }
+//         if(!isDuplicate){
+//             result.push(arr[i])
+//         }
 
-    }
+//     }
 
-    return result
-}
+//     return result
+// }
 
-let output = removeDuplicates([1,2,2,3,3,4,5,4,6])
-console.log(output);
+// let output = removeDuplicates([1,2,2,3,3,4,5,4,6])
+// console.log(output); 
+
+// 7. A palindrome is a word, phrase, number, or other
+// sequence of characters which reads the same backward or
+// forward. An example of a palindrome is "madam".
+
+// let isPalindrome = (str)=>{
+//     let reversed = ""
+//     for(let i = str.length - 1 ; i >= 0 ; i--){
+//         reversed += str[i]
+//     }
+
+//     if(str === reversed){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+
+// let result = isPalindrome("hello")
+// console.log(result);
+
 
 
 
