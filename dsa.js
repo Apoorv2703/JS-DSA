@@ -75,24 +75,53 @@
 // 5. Write a function called countVowels that takes in a
 //  string and returns the number of vowels in the string.
 
-let countVowels = (str)=>{
-    let formattedStr = str.toLowerCase()
+// let countVowels = (str)=>{
+//     let formattedStr = str.toLowerCase()
 
-    let count = 0
+//     let count = 0
 
-    for(let i = 0 ; i < formattedStr.length ; i++){
-        let char = formattedStr[i]
+//     for(let i = 0 ; i < formattedStr.length ; i++){
+//         let char = formattedStr[i]
 
-        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
-            count++
+//         if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+//             count++
+//         }
+//     }
+
+//     return count
+// }
+
+// let result = countVowels("apoorv")
+// console.log(result);
+
+// 6. Write a function called removeDuplicates that takes in
+// an array and returns a new array with duplicates
+// removed.
+
+let removeDuplicates = (arr)=>{
+
+    let result = []
+
+    for(let i = 0 ; i < arr.length ; i++){
+        let isDuplicate = false 
+        for(let j = 0 ; j < result.length ; j++){
+            if(arr[i]===result[j]){
+                isDuplicate = true 
+                break ;
+            }
         }
+
+        if(!isDuplicate){
+            result.push(arr[i])
+        }
+
     }
 
-    return count
+    return result
 }
 
-let result = countVowels("apoorv")
-console.log(result);
+let output = removeDuplicates([1,2,2,3,3,4,5,4,6])
+console.log(output);
 
 
 
