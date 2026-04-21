@@ -143,6 +143,27 @@
 // let result = isPalindrome("hello")
 // console.log(result);
 
+//check if the number is positive , negative or zero 
+
+//input = -9 
+//output = negative 
+
+let checkNum = (num)=>{
+    if(num<0){
+        return "negative"
+        
+    }else if(num > 0 ){
+        return "positive"
+        
+    }else{
+        return "zero"
+        
+    }
+}
+
+console.log(checkNum(12));
+
+
 
 
 
