@@ -201,6 +201,33 @@
 // }
 // console.log(sum);
 
+//count total elements
+
+// let arr = [1,2,3,4,0,5,2,6,9]
+
+// let totalElements = 0
+
+// for(let i = 0 ; i < arr.length ; i++){
+//     totalElements++
+    
+// }
+// console.log(totalElements);
+
+//prefix sum array 
+// let arr = [2,4,6,8]
+
+// let sum = 0 
+// let result = []
+
+// for(let i = 0 ; i < arr.length ; i++){
+//     sum = sum + arr[i]
+//     result.push(sum)
+// }
+
+// console.log(result);
+
+
+
 
 
 
