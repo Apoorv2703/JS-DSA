@@ -179,19 +179,28 @@
 // input [1 , 2, 3 , 4]
 // output [1,3,6,10]
 
-let arr = [1,2,3,4]
+// let arr = [1,2,3,4]
 
-let num = []
+// let num = []
 
-let sum = 0
+// let sum = 0
 
-for(let i = 0 ; i < arr.length ; i++){
-    sum+=arr[i]
-    num.push(sum)
+// for(let i = 0 ; i < arr.length ; i++){
+//     sum+=arr[i]
+//     num.push(sum)
     
-}
+// }
 
-console.log(num);
+// console.log(num);
+
+// sum of array [5,10,15]
+// let arr = [5,10,15]
+// let sum = 0
+// for(let i = 0 ; i < arr.length; i++){
+//     sum = sum + arr[i]
+// }
+// console.log(sum);
+
 
 
 
