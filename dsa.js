@@ -148,20 +148,52 @@
 //input = -9 
 //output = negative 
 
-let checkNum = (num)=>{
-    if(num<0){
-        return "negative"
+// let checkNum = (num)=>{
+//     if(num<0){
+//         return "negative"
         
-    }else if(num > 0 ){
-        return "positive"
+//     }else if(num > 0 ){
+//         return "positive"
         
-    }else{
-        return "zero"
+//     }else{
+//         return "zero"
         
-    }
+//     }
+// }
+
+// console.log(checkNum(12));
+
+//calculate electricity bill 
+//input = 230 units 
+//output total bill = 1500 
+
+// let electricityBill = (unit)=>{
+//     if(unit >=100){
+
+//     }
+// }
+
+
+// cumulative logic
+
+// input [1 , 2, 3 , 4]
+// output [1,3,6,10]
+
+let arr = [1,2,3,4]
+
+let num = []
+
+let sum = 0
+
+for(let i = 0 ; i < arr.length ; i++){
+    sum+=arr[i]
+    num.push(sum)
+    
 }
 
-console.log(checkNum(12));
+console.log(num);
+
+
 
 
 
