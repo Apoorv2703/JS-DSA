@@ -253,6 +253,18 @@
 
 // console.log(sum);
 
+// . Count numbers divisible by 3 till N
+
+// let n = 10 
+// let count = 0
+// for(let i = 0 ; i < n ; i++){
+//     if(i % 3 === 0){
+//         count++
+//     }
+// }
+// console.log(count);
+
+
 
 
 
