@@ -296,14 +296,27 @@
 //input = 1234
 //output = 4321 
 
-let n = 1234 
-let reverse = 0 
+// let n = 1234 
+// let reverse = 0 
 
-for(; n > 0 ; n = parseInt(n/10)){
-    reverse =  n % 10
-    console.log(reverse);
-}
+// for(; n > 0 ; n = parseInt(n/10)){
+//     reverse =  n % 10
+//     console.log(reverse);
+// }
 
+//sum of all digits 
+//input = 1234 
+//output = 10 
+
+// let n = 1234 
+
+// let sum = 0 
+// for(; n > 0 ; n = parseInt(n/10)){
+//     let digit = n % 10 
+//     sum = sum + digit
+// }
+
+// console.log(sum);
 
 
 
