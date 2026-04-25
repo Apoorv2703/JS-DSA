@@ -316,7 +316,25 @@
 //     sum = sum + digit
 // }
 
-// console.log(sum);
+// console.log(sum); 
+
+// Reverse a number
+
+// 👉 Input: 1234 → Output: 4321
+
+// let n = 1234 
+
+// let reverse = 0
+
+// for(; n > 0 ; n = parseInt(n / 10)){
+//   let digit = n % 10 
+//   reverse = reverse * 10 + digit
+    
+    
+// }
+// console.log(reverse);
+
+
 
 
 
