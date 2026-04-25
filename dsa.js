@@ -292,6 +292,19 @@
 
 // console.log(count);
 
+//reverse a number 
+//input = 1234
+//output = 4321 
+
+let n = 1234 
+let reverse = 0 
+
+for(; n > 0 ; n = parseInt(n/10)){
+    reverse =  n % 10
+    console.log(reverse);
+}
+
+
 
 
 
