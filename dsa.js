@@ -266,15 +266,31 @@
 
 //10. Find sum of array elements
 
-let arr = [1,2,3,4]
+// let arr = [1,2,3,4]
 
-let sum = 0 
+// let sum = 0 
 
-for(let i = 0 ; i < arr.length ; i++){
-    sum = sum + arr[i]
-}
+// for(let i = 0 ; i < arr.length ; i++){
+//     sum = sum + arr[i]
+// }
 
-console.log(sum);
+// console.log(sum);
+
+
+
+// Count digits in a number
+
+// 👉 Input: 12345 → Output: 5
+
+// let n = 12345
+
+// let count = 0
+
+// for(; n > 0 ; n = parseInt(n/10)){
+//     count++
+// }
+
+// console.log(count);
 
 
 
