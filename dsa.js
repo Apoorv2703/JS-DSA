@@ -316,10 +316,22 @@
 
 // 👉 Input: 987 → Output: 7
 
-let n  = 987 
+// let n  = 987 
 
-let lastDigit = n % 10 
-console.log(lastDigit);
+// let lastDigit = n % 10 
+// console.log(lastDigit);
+
+let n = 121 
+let original = n
+let rev = 0
+
+for(;n > 0 ; n = parseInt(n/10) ){
+    let digit = n % 10 
+    rev = rev * 10 + digit 
+}
+
+console.log(rev === original);
+
 
 
 
