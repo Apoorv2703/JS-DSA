@@ -321,16 +321,31 @@
 // let lastDigit = n % 10 
 // console.log(lastDigit);
 
-let n = 121 
-let original = n
-let rev = 0
 
-for(;n > 0 ; n = parseInt(n/10) ){
+//reverse a number
+// let n = 121 
+// let original = n
+// let rev = 0
+
+// for(;n > 0 ; n = parseInt(n/10) ){
+//     let digit = n % 10 
+//     rev = rev * 10 + digit 
+// }
+
+// console.log(rev === original);
+
+//product of a number 
+
+let n = 1234 
+let product = 1 
+
+for(; n > 0 ; n = parseInt(n/10)){
     let digit = n % 10 
-    rev = rev * 10 + digit 
+    product = product * digit
 }
 
-console.log(rev === original);
+console.log(product);
+
 
 
 
