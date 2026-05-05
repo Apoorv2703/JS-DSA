@@ -336,15 +336,55 @@
 
 //product of a number 
 
-let n = 1234 
-let product = 1 
+// let n = 1234 
+// let product = 1 
 
-for(; n > 0 ; n = parseInt(n/10)){
-    let digit = n % 10 
-    product = product * digit
-}
+// for(; n > 0 ; n = parseInt(n/10)){
+//     let digit = n % 10 
+//     product = product * digit
+// }
 
-console.log(product);
+// console.log(product);
+
+
+// let n = 1234 
+
+// let reverse = 0
+
+// for(; n > 0 ; n = parseInt(n/10)){
+
+//     let digit = n % 10 
+
+//     reverse = reverse * 10 + digit
+
+// }
+
+//  Sum of even digits
+
+// 👉 Input: 123456 → Output: 12 (2+4+6)
+// Task: Add only even digits.
+
+// let n = 123456 
+
+// let sum = 0 
+
+// for(; n > 0 ; n = parseInt(n/10)){
+//     let digit = n % 10 
+//     if(digit % 2 === 0){
+//         sum = sum + digit
+//     }
+// }
+
+// console.log(sum);
+
+
+
+
+
+
+
+
+
 
 
 
