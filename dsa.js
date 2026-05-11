@@ -361,7 +361,7 @@
 
 //  Sum of even digits
 
-// 👉 Input: 123456 → Output: 12 (2+4+6)
+//  Input: 123456 → Output: 12 (2+4+6)
 // Task: Add only even digits.
 
 // let n = 123456 
@@ -376,6 +376,38 @@
 // }
 
 // console.log(sum);
+
+//armstrong number 
+
+let n = 153 
+let original = n
+let count = 0
+let sum = 0
+for(; n > 0 ; n = parseInt(n/10)){
+    count++
+
+}
+
+for(let j = original ; j > 0 ; j = parseInt(j / 10)){
+
+    let digit = j % 10 
+    sum = sum + digit**count
+
+}
+
+console.log(sum === original);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
