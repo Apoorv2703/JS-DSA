@@ -379,23 +379,47 @@
 
 //armstrong number 
 
-let n = 153 
-let original = n
-let count = 0
-let sum = 0
-for(; n > 0 ; n = parseInt(n/10)){
-    count++
+// let n = 153 
+// let original = n
+// let count = 0
+// let sum = 0
+// for(; n > 0 ; n = parseInt(n/10)){
+//     count++
 
+// }
+
+// for(let j = original ; j > 0 ; j = parseInt(j / 10)){
+
+//     let digit = j % 10 
+//     sum = sum + digit**count
+
+// }
+
+// console.log(sum === original);
+
+let armstrong = (num) => {
+
+    let original = num
+    let count = 0
+    let sum = 0
+
+    // Count digits
+    for(let n = num; n > 0; n = Math.floor(n / 10)){
+        count++
+    }
+
+    // Armstrong calculation
+    for(let j = original; j > 0; j = Math.floor(j / 10)){
+        let digit = j % 10
+        sum = sum + digit ** count
+    }
+
+    return sum === original
 }
 
-for(let j = original ; j > 0 ; j = parseInt(j / 10)){
+let result = armstrong(153)
 
-    let digit = j % 10 
-    sum = sum + digit**count
-
-}
-
-console.log(sum === original);
+console.log(result)
 
 
 
