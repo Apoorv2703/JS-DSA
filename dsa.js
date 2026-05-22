@@ -397,29 +397,51 @@
 
 // console.log(sum === original);
 
-let armstrong = (num) => {
+// let armstrong = (num) => {
 
-    let original = num
-    let count = 0
-    let sum = 0
+//     let original = num
+//     let count = 0
+//     let sum = 0
 
-    // Count digits
-    for(let n = num; n > 0; n = Math.floor(n / 10)){
-        count++
+//     // Count digits
+//     for(let n = num; n > 0; n = Math.floor(n / 10)){
+//         count++
+//     }
+
+//     // Armstrong calculation
+//     for(let j = original; j > 0; j = Math.floor(j / 10)){
+//         let digit = j % 10
+//         sum = sum + digit ** count
+//     }
+
+//     return sum === original
+// }
+
+// let result = armstrong(153)
+
+// console.log(result)
+
+// check prime
+
+let n = 8
+for(let i = 2 ; i < n ; i++){
+    if(i % n === 0){
+        console.log("non prime");
+        
+    }else{
+        console.log("prime");
+        
     }
-
-    // Armstrong calculation
-    for(let j = original; j > 0; j = Math.floor(j / 10)){
-        let digit = j % 10
-        sum = sum + digit ** count
-    }
-
-    return sum === original
 }
 
-let result = armstrong(153)
 
-console.log(result)
+
+
+
+
+
+
+
 
 
 
