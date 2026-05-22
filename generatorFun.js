@@ -41,6 +41,8 @@ function* genFunc(){
 let neww = genFunc()
 
 console.log(neww.next().value);
-// ans = this is 1st line
+// ans = this is 1st line (value)
+console.log(neww.next().done);
+//ans = false (status)
 
 
