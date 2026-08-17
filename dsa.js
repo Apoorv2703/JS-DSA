@@ -423,15 +423,24 @@
 
 // check prime
 
-let n = 8
-for(let i = 2 ; i < n ; i++){
-    if(i % n === 0){
-        console.log("non prime");
+// let n = 8
+// for(let i = 2 ; i < n ; i++){
+//     if(i % n === 0){
+//         console.log("non prime");
         
-    }else{
-        console.log("prime");
+//     }else{
+//         console.log("prime");
         
-    }
+//     }
+// }
+
+
+let input  = "hello"
+
+for(let i = 0 ; i < input.length ; i++){
+    console.log(input[i]);
+    
+
 }
 
 
