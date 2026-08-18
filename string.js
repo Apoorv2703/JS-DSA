@@ -25,15 +25,25 @@
 
 // console.log(count);
 
-let input = 'hello world how are you'
+// let input = 'hello world how are you'
 
-let space = 0 
+// let space = 0 
 
-for(let i = 0 ; i<input.length ; i++){
-    if(input[i] === " "){
-        space++
-    }
+// for(let i = 0 ; i<input.length ; i++){
+//     if(input[i] === " "){
+//         space++
+//     }
+// }
+
+// console.log(space);
+
+let input = 'hello'
+
+for(let i = input.length - 1 ; i >= 0 ; i--){
+    console.log(input[i])
+
 }
 
-console.log(space);
+
+
 
