@@ -24,3 +24,16 @@
 // }
 
 // console.log(count);
+
+let input = 'hello world how are you'
+
+let space = 0 
+
+for(let i = 0 ; i<input.length ; i++){
+    if(input[i] === " "){
+        space++
+    }
+}
+
+console.log(space);
+
