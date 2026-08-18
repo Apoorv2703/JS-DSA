@@ -69,17 +69,37 @@
 // }
 // console.log(join);
 
+// let input = 'programming'
+
+// let count = 0 
+
+// for(let i = 0 ; i < input.length ; i++){
+//     if(input[i] === 'm'){
+//         count++
+//     }
+// }
+
+// console.log(count);
+
 let input = 'programming'
 
-let count = 0 
+let count = ''
 
 for(let i = 0 ; i < input.length ; i++){
-    if(input[i] === 'm'){
-        count++
+
+    let currentChar = input[i]
+
+    for(let j= i+1 ; j < input.length ; j++){
+        if(currentChar === input[j]){
+        count += currentChar
+        
+        }
     }
+
 }
 
 console.log(count);
+
 
 
 
