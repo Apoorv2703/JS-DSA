@@ -37,12 +37,30 @@
 
 // console.log(space);
 
-let input = 'hello'
+// let input = 'hello'
 
-for(let i = input.length - 1 ; i >= 0 ; i--){
-    console.log(input[i])
+// let result = ''
 
-}
+// for(let i = input.length - 1 ; i >= 0 ; i--){
+//     result  += input[i]
+
+// }
+
+// console.log(result);
+
+// let input = "racecar"
+
+// let reverse = ''
+
+// for(let i = input.length - 1 ; i >= 0 ; i--){
+//     reverse += input[i]
+// }
+
+// console.log(input === reverse);
+
+
+
+
 
 
 
