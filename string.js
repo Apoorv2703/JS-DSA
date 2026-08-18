@@ -58,6 +58,18 @@
 
 // console.log(input === reverse);
 
+// let input = 'hello world'
+ 
+// let join = ''
+
+// for(let i = 0 ; i < input.length ; i++){
+//     if(input[i] !== ' '){
+//         join += input[i]
+//     }
+// }
+// console.log(join);
+
+
 
 
 
