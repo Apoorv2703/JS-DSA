@@ -81,24 +81,57 @@
 
 // console.log(count);
 
-let input = 'programming'
+// let input = 'programming'
 
-let count = ''
+// let count = ''
 
-for(let i = 0 ; i < input.length ; i++){
+// for(let i = 0 ; i < input.length ; i++){
 
-    let currentChar = input[i]
+//     let currentChar = input[i]
 
-    for(let j= i+1 ; j < input.length ; j++){
-        if(currentChar === input[j]){
-        count += currentChar
+//     for(let j= i+1 ; j < input.length ; j++){
+//         if(currentChar === input[j]){
+//         count += currentChar
         
-        }
-    }
+//         }
+//     }
 
-}
+// }
 
-console.log(count);
+// console.log(count);
+
+
+// let input = 'aabbccddabcd'
+
+// let char = ''
+
+// for(let i = 0 ; i < input.length ; i++){
+//     let currentChar = input[i]
+//     for(j = i+1 ; j < input.length ; j++){
+//         if(currentChar === input[j]){
+//             char += currentChar
+//         }
+//     }
+// }
+
+// console.log(char);
+
+// let input = 'aabbcc' 
+
+// let frequency = {}
+
+// for(let i = 0 ; i < input.length ; i++){
+//     let char = input[i];
+//     if(frequency[char] === undefined){
+//         frequency[char] = 1
+//     }else{
+//         frequency[char]++
+//     }
+// }
+
+// console.log(frequency);
+
+
 
 
 
