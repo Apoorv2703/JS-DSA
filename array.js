@@ -32,7 +32,20 @@
     
 // }
 
-// console.log(largest);
+// console.log(largest); 
+
+ let arr = [-10, -5, -20, -3, -15];
+
+ let largets  = arr[0]
+
+ for(let i = 0 ; i < arr.length ; i++){
+    if(largets < arr[i]){
+        largets = arr[i]
+    }
+ }
+
+ console.log(largets);
+ 
 
 
 
