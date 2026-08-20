@@ -9,6 +9,7 @@
 //if you console i only it will give you index like 0 1 2 3 4 
 // but if you console arr[i] it will give you the value stored in index 
 // let i = 0 represents the index
+//arr[i] here i means index and arr[i] means value at that index
 
 
 // let arr = [5 , 8, 2,10,3 ]
@@ -24,7 +25,7 @@
 // let arr = [5 , 8, 2,10,3 ] 
 // let largest = arr[0] 
 
-// for(let i = 0 ; i < arr.length ; i++){
+// for(let i = 1 ; i < arr.length ; i++){
 //     if(arr[i] > largest){
 //         largest = arr[i]
 //     }
@@ -32,6 +33,10 @@
 // }
 
 // console.log(largest);
+
+
+
+
 
 
 
