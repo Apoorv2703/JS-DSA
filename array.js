@@ -11,15 +11,29 @@
 // let i = 0 represents the index
 
 
-let arr = [5 , 8, 2,10,3 ]
+// let arr = [5 , 8, 2,10,3 ]
 
-let count = 0
+// let count = 0
 
-for(let i = 0 ; i < arr.length ; i++){
-    count = count + arr[i]
-}
+// for(let i = 0 ; i < arr.length ; i++){
+//     count = count + arr[i]
+// }
 
-console.log(count);
+// console.log(count);
+
+// let arr = [5 , 8, 2,10,3 ] 
+// let largest = arr[0] 
+
+// for(let i = 0 ; i < arr.length ; i++){
+//     if(arr[i] > largest){
+//         largest = arr[i]
+//     }
+    
+// }
+
+// console.log(largest);
+
+
 
 
 
