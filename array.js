@@ -81,6 +81,26 @@
 
 // console.log(count);
 
+let arr = [-5, 8, -2, 10, -3, 7, -12];
+
+let positive = 0 
+let negative = 0
+
+for(let i = 0 ; i < arr.length ; i++){
+
+    if(arr[i] > 0){
+        positive++
+    }else{
+        negative++
+    }
+
+}
+
+console.log(positive);
+console.log(negative);
+
+
+
 
 
 
