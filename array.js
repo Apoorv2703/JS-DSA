@@ -3,7 +3,7 @@
 
 // for(let i = 0 ; i < arr.length ; i++){
 //     console.log(arr[i]);
-    
+
 // }
 
 //if you console i only it will give you index like 0 1 2 3 4 
@@ -29,7 +29,7 @@
 //     if(arr[i] > largest){
 //         largest = arr[i]
 //     }
-    
+
 // }
 
 // console.log(largest); 
@@ -81,23 +81,44 @@
 
 // console.log(count);
 
-let arr = [-5, 8, -2, 10, -3, 7, -12];
+// let arr = [-5, 8, -2, 10, -3, 7, -12];
 
-let positive = 0 
-let negative = 0
+// let positive = 0 
+// let negative = 0
 
-for(let i = 0 ; i < arr.length ; i++){
+// for(let i = 0 ; i < arr.length ; i++){
 
-    if(arr[i] > 0){
-        positive++
-    }else{
-        negative++
+//     if(arr[i] > 0){
+//         positive++
+//     }else{
+//         negative++
+//     }
+
+// }
+
+// console.log(positive);
+// console.log(negative);
+
+let arr = [10, 25, 7, 42, 18, 9];
+
+let target = 42;
+
+let found = false
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+        found = true
     }
 
 }
 
-console.log(positive);
-console.log(negative);
+if (found === true) {
+    console.log("found");
+
+} else {
+    console.log("not found");
+
+}
 
 
 
@@ -105,7 +126,12 @@ console.log(negative);
 
 
 
- 
+
+
+
+
+
+
 
 
 
