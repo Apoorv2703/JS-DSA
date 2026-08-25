@@ -99,26 +99,41 @@
 // console.log(positive);
 // console.log(negative);
 
-let arr = [10, 25, 7, 42, 18, 9];
+// let arr = [10, 25, 7, 42, 18, 9];
 
-let target = 42;
+// let target = 42;
 
-let found = false
+// let found = false
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === target) {
-        found = true
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === target) {
+//         found = true
+//     }
+
+// }
+
+// if (found === true) {
+//     console.log("found");
+
+// } else {
+//     console.log("not found");
+
+// }
+
+let arr = [10, 25, 7, 42, 18, 9]; 
+
+let target = 50
+
+let index = -1
+
+for(let i = 0 ; i < arr.length ; i++){
+    if(arr[i] === target){
+        index = i
+        
     }
-
 }
-
-if (found === true) {
-    console.log("found");
-
-} else {
-    console.log("not found");
-
-}
+ console.log(index);
+ 
 
 
 
