@@ -120,19 +120,36 @@
 
 // }
 
-let arr = [10, 25, 7, 42, 18, 9]; 
+// let arr = [10, 25, 7, 42, 18, 9]; 
 
-let target = 50
+// let target = 50
 
-let index = -1
+// let index = -1
 
-for(let i = 0 ; i < arr.length ; i++){
-    if(arr[i] === target){
-        index = i
+// for(let i = 0 ; i < arr.length ; i++){
+//     if(arr[i] === target){
+//         index = i
         
-    }
-}
- console.log(index);
+//     }
+// }
+//  console.log(index);
+
+// let arr = [2, 4, 2, 7, 2, 9, 4]; 
+
+// let target = 2 
+
+// let count = 0
+
+// for(let i = 0 ; i < arr.length ; i++){
+
+//     if(arr[i] === target){
+//         count++
+//     }
+
+// }
+
+// console.log(count);
+
  
 
 
